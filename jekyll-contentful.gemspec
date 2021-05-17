@@ -22,8 +22,8 @@ Gem::Specification.new do |s|
   s.add_dependency("jekyll", ">= 2.5.0", "< 4")
 
   # Additional dependencies
-  s.add_dependency("contentful", '~> 2.1')
-  s.add_dependency("rich_text_renderer", '~> 0.1', git: 'https://github.com/airtwo/rich-text-renderer.rb')
+  s.add_dependency("contentful", '~> 2.15.4')
+  s.add_dependency("rich_text_renderer", '~> 0.1')
 
   s.add_development_dependency 'rubygems-tasks', '~> 0.2'
   s.add_development_dependency "guard"
